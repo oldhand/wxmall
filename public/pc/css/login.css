@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************************************登录CSS***************************************************************/
+/* 登录CSS 找回密码*/
+.hidden-border{ width:137px; overflow:hidden}
+.findKey-tit{ margin-top:30px;}
+
+.findKey-flow-box{ position:absolute; top:40px; left:0; width:1110px;}
+.line{ border-top:1px solid #e8e8e8;}
+.flow-img{ position:absolute; top:-20px; left:20px;}
+.flow-img li{ padding:0 20px; background:#fff; border:1px; float:left; display:inline; position:relative;}
+.flow-img li span{ float:left; width:38px; height:38px; background:url(../images/login-flow-img.gif) no-repeat 0 0; color:#fff; text-align:center; font-size:20px; line-height:38px;}
+.flow-img li p{ width:75px; position:absolute; top:38px; left:3px; text-align:center; font-size:14px; height:36px; line-height:36px;}
+.flow-img li .active{ background-position: 0 -43px;}
+.findKey-form{ width:450px; margin-left:295px;}
+.findKey-form li{ margin-bottom:25px; float:left;}
+.findKey-form li span{ float:left; width:100px; padding-right:15px; height:36px; line-height:36px; text-align:right;}
+.findKey-form li div{ float:left; line-height:35px; display:inline-block;}
+.findKey-tips{ height:30px; line-height:30px; margin-bottom:30px;}
+.findKey-succ{ width:91px; height:91px; background:url(../images/login-flow-img.gif) no-repeat 0 -81px; margin-left:50%; position:relative; left:-60px;}
+
+/*登录CSS 注册新用户*/
+.findKey-form .reg-agreement{ margin:0px;}
+
+/*登录CSS 登录*/
+.login-form-box{margin:0px auto; padding:0px;width:855px;}
+.login-form-box .login-img{ height: 345px; width: auto; }
+.field{ position:relative;}
+.field span{ position:absolute; width:17px; height:20px; display:block; background:url(../images/login-flow-img.gif) no-repeat -9999px; left:10px; top:6px;}
+.login-form{ border:1px solid #e6e6e6; border-top:3px solid #cc3300;}
+.field .username-icon{ background-position:0 -181px;}
+.field .password-icon{ background-position:-19px -181px;}
+.safe p{ height:22px; line-height:22px;}
+.entries p{ height:26px; line-height:26px;}
+.other-login span{ height:26px; line-height:26px;}
+.other-login-icon{ float:left; width:92px; height:26px; background:url(../images/login-flow-img.gif) no-repeat 0 -207px; height:26px;}
+.other-login-icon a{ float:left; width:29px; height:24px; margin-left:1px; margin-top:1px;}
+.findKey-form li p.p-t10{ height:35px; margin:0px; padding-top:10px;}
+
+.greey{ font-family: 'Arial'; }

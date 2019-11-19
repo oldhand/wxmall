@@ -1,0 +1,22 @@
+ 
+
+
+/*单排*/
+.singlerow .cp_miaoshu{width:100%;height:70px;position:absolute;right:0;bottom:12px;}
+.singlerow .price1 {text-decoration:line-through; color:#8a8888;  }  
+.singlerow .price3 {text-decoration:line-through; color:#999;  } 
+.singlerow .price2 {padding-left:10px;color:#dcb66b; font-size:1.4em; font-weight:700; }
+.singlerow .price1 span,.price2 span,span.price{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin-left:0}
+.singlerow .price2 span {font-size:1.1em}
+.singlerow .ms_left{width:30%;height:70px;float:left;}
+.singlerow .ms_right{width:70%;height:70px;float:left;} 
+.singlerow .tit{width:100%;height:30px;text-align:left;font-size:14px;color:#000; line-height:30px;padding-left:8px; overflow:hidden;background-color: rgba(255,255,255,0.7);border-top-left-radius:5px;}
+.singlerow .cnt{width:100%;height:40px;font-size:14px;border-bottom-left-radius:5px; box-shadow: 1px 2px 1px #bbb;}
+.singlerow .cnt ul{margin:0;padding:0;list-style: none;}
+.singlerow .cnt ul li{list-style-type:none;} 
+.singlerow .cnt ul .wg1{width:78%;height:40px;float:left;text-align:left;line-height:1.3em;padding-left:8px;font-size:12px;padding-top:5px;}
+.singlerow .cnt ul .wg3{width:22%;height:40px;float:left;}
+.singlerow .cnt ul .wg3 a{font-size:14px;display:block;color:#C30; text-decoration:none;text-align:center;padding-top:7px;width:100%;height:21px;}
+.singlerow .cnt ul .wg3 span{font-size: 1.6em;} 
+
+ 

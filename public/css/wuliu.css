@@ -1,0 +1,112 @@
+.smart-result {
+    padding: 0;
+}
+.smart-result-comname, .smart-result-kuaidinum {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: none;
+}
+.smart-result-comname {
+    background: #88cdfe none repeat scroll 0 0;
+    padding-right: 5%;
+    width: 34.5%;
+}
+.smart-result-kuaidinum {
+    background: #67baf7 none repeat scroll 0 0;
+    padding-left: 5%;
+    width: 64.3%;
+}
+.smart-result table {
+    width: 100%;
+}
+.smart-result table tr {
+    color: #909090;
+    font-weight: bold;
+    width: 100%;
+}
+.smart-result table tr.last-line {
+    color: #333333;
+}
+.smart-result table tr.last-line {
+    color: #ff6600;
+}
+.smart-result table td {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    height: 60px;
+}
+.smart-result table tr.odd {
+    background: #f6f6f6 none repeat scroll 0 0;
+}
+.smart-result table tr.even {
+    background: #eeeeee none repeat scroll 0 0;
+}
+.smart-result table td.col1 {
+    width: 30%;
+}
+.smart-result table td.col2 {
+    line-height: 24px;
+    padding: 10px;
+    width: 60%;
+}
+.smart-result table td.colstatus {
+    width: 10%;
+}
+.smart-result table tr td.colstatus {
+    background: rgba(0, 0, 0, 0) url("images/step_point.png") no-repeat scroll center center;
+}
+.smart-result table tr.first-line td.colstatus {
+    background: rgba(0, 0, 0, 0) url("images/step_start.png") no-repeat scroll center center;
+}
+.smart-result table tr.wait td.colstatus {
+    background: rgba(0, 0, 0, 0) url("images/step_wait.gif") no-repeat scroll center center;
+}
+.smart-result table tr.checked td.colstatus {
+    background: rgba(0, 0, 0, 0) url("images/step_finish.png") no-repeat scroll center center;
+}
+.result-date, .result-time {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.result-date {
+    font-size: 12px;
+    font-weight: normal;
+    height: 15px;
+}
+.result-time {
+    font-size: 24px;
+    padding-top: 5px;
+}
+.smart-error-content {
+    background: #e3750f none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+.smart-error-div {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: none;
+    padding: 20px;
+    position: relative;
+}
+.smart-error-div .icon-error {
+    background: rgba(0, 0, 0, 0) url("images/icon.png") no-repeat scroll 15px -394px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    min-height: 50px;
+    padding: 20px 10px 10px 70px;
+    text-shadow: none;
+}
+.smart-error-div .smart-opera-btn {
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 100%;
+}

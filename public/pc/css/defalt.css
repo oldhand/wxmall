@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+/*font*/
+body{ font-size:12px; color:#333; font-family:'微软雅黑';}
+a{ color:#333;}
+.red{ color:#cc0000;}
+.orange{ color:#ce3d0c;}
+.greey{ color:#999;}
+.black{ color:#000;}
+.bg-greey{ background:#e8e8e8;}
+.blue{ color:#669933;}
+.f14{ font-size:14px;}
+h1,h2,h3,h4,h5{ font-family:"微软雅黑";}
+ul,ol{ list-style-type:none; margin:0; padding:0;}
+.pa-{ padding:0 20px 0 15px;}
+.pb5{ padding-bottom:5px;}
+.pb10{ padding-bottom:10px;}
+.mt-5{ margin-top:5px;}
+.mt-10{ margin-top:10px;}
+.mb-10{ margin-bottom:10px;}
+.mb-5{ margin-bottom:5px;}
+.mr-10{ margin-right:10px;}
+.ml-10{ margin-left:10px;}
+p{ margin:0;}
+.container{ width:1110px; padding:0;}
+.blank90{ height:90px;}
+.blank20{ height:20px;}
+.blank60{ height:60px;}
+.border{border:1px solid #e8e8e8;}
+em{ font-style:normal;}
+.btn-greey{ background:#eee;}
+.btn-sgreey{ background:#535353;}
+.line{ height:1px; background:#ccc;}
+.border-b{ border-bottom:1px solid #e8e8e8;}
+/**头部部分**/
+.headbg{ background:url(../images/top.png) no-repeat;}
+.head-top{ border-top:5px solid #cc0000; height:140px;}
+/*logo*/
+.logo{ width:450px; padding-top:15px;}
+.logo-m{ width:110px; padding:10px 20px 0 15px;}
+.logo-r{ width:200px; padding-top:15px;}
+.logo-r h3{ margin:0px; padding:0px; padding-bottom:5px; line-height:30px;}
+/*head-top-tool*/
+.head-top-r{ width:660px;}
+.head-top-tool{ margin:12px 0 20px 0;}
+.head-top-tool ul li{ float:left}
+.head-top-tool ul li.per-login{ padding-right:15px;}
+.head-top-tool ul li li{ padding:0; color:#ccc; position:relative; height:25px; }
+.head-top-tool ul li img{ margin:0 2px;}
+.head-top-tool ul li li .submenu{ position:absolute; top:24px; left:-7px; z-index:11; width:100px; border:1px solid #cc0000; background:#fff; padding:5px 0; display:none;}
+.head-top-tool ul li li.active .submenu{ display:block;}
+.head-top-tool ul li li.active a.m1{color:#cc0000;}
+.head-top-tool ul li li ul li{ text-align:center; line-height:25px; width:90px; padding:0;}
+.head-top-tool ul li li a.m1{ padding:0 25px 0 12px; background:url(../images/cr.gif) no-repeat right center; float:left;}
+.head-top-tool ul li li a{ background:none; padding:0 0 0 12px;}
+.head-top-tool ul li li a:hover{color:#cc0000;}
+.icon-sj{ background:url(../images/sj.gif) no-repeat top center; width:13px; height:7px; display:block; position:absolute; top:-7px; left:43px; z-index:20;}
+. pull-left{ width:392px; height:340px; display:block; border-bottom:1px solid #e8e8e8;}
+.time{ padding:40px 0;}
+/*input-group*/
+.head-top-bot .input-group{ width:360px;}
+.head-top-bot .input-group{margin:10px 40px 0 0; position:relative; }
+.head-top-bot .form-control{ padding-right:30px;}
+.head-top-bot .search-btn{ position:absolute; background-position:-170px 5px; width:20px; height:30px; border:none; right:10px; z-index:10; top:3px; cursor:pointer;}
+.head-top-bot .form-control{ 13color:#999;}
+/*btn-toolbar*/
+.head-top-bot .btn-toolbar li{ padding-left:10px; text-align:center; position:relative;}
+.head-top-bot .btn-toolbar li span{ width:40px; height:30px; display:block; position:relative;}
+.head-top-bot .btn-toolbar li span em.circle{ position:absolute; width:17px; height:17px; display:block; background-position:-172px -30px; text-align:center; line-height:17px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-style:normal; right:5px; top:-5px;}
+span.order{ background-position:-32px 0;}
+span.per{ background-position:-75px 0;}
+span.collect{ background-position:-118px 0;}
+span.card{ background-position:-113px -34px;}
+.toolbar-submenu{ position:absolute;border:1px solid #cc0000; background:#fff; padding:5px 5px 10px; width:290px; top:52px; display:none; z-index:100;}
+li.active .toolbar-submenu{ display:block;}
+.toolbar-submenu li span.icon-sj{ left:144px;}
+.carlist li{ padding:10px; height:70px; text-align:left!important; border-bottom:1px solid #e8e8e8;}
+.carlist li p{ line-height:20px; padding-top:2px; margin:0;}
+.carlist  i.icon-sj{ left:144px;}
+.collectbox i.icon-sj{ left:120px;}
+.carlist li em{ list-style:none;}
+.carlist-Rache{ padding-top:10px;}
+.carlist-Rache span{ float:left; width:auto!important; text-align:right; padding:0 10px;}
+.carlist a.btn-sm{ padding:5px 25px;}
+.collectbox{ padding:0; width:240px;}
+.collectbox-b{ border-top:1px solid #e8e8e8;}
+.collectbox-b ul li{ width:50%; float:left; padding:0 0 0 5px; text-align:left!important; line-height:22px; background:url(../images/cir2-greey.gif) no-repeat left center;}
+.collectbox-b ul li a{ color:#666;}
+.collectbox-t,.collectbox-b{ padding:10px;} 
+.collectbox .bg-greey{ height:25px; line-height:25px;}
+/*head-nav*/
+.head-nav{ border-top:1px solid #e6e6e6; border-bottom:3px solid #333; height:54px;}
+.head-nav .menu{ margin-left:50px;}
+.head-nav .menu li{ height:50px; line-height:50px; float:left; color:#e6e6e6; font-size:18px;}
+.head-nav .menu li a{ padding:0 35px 0 70px; color:#000; }
+.head-nav .menu li.active a,.head-nav .menu li a:hover{ color:#d9333e;font-weight:bold;}
+.head-nav .menu .home{ background-position:-136px -73px;}
+.head-nav .menu .hot{ background-position:-136px -115px;}
+.head-nav .menu .life{ background-position:-136px -160px;}
+.head-nav .menu li.active .home,.head-nav .menu li:hover .home{ background-position:-136px -208px;}
+.head-nav .menu li.active .hot,.head-nav .menu li:hover .hot{ background-position:-136px -250px;}
+.head-nav .menu li.active .life,.head-nav .menu li:hover .life{ background-position:-137px -294px;}
+/*左侧展开菜单*/
+.category-menu{width:200px; position:relative; z-index:100;}
+.category-menu h3{ padding:0; margin:0px; height:50px; display:block; background:url(../images/title.jpg) no-repeat; cursor:pointer;}
+.category-menu h3:hover,.category-menu h3.active{ background:url(../images/titleh.jpg) no-repeat;}
+.category-menu-nav{ position:absolute; top:50px; left:0; width:200px;  z-index:100;display:none; width:200px; background:#fff; border:1px solid #cc3300; padding:20px;}
+.category-menu-nav-list,.leftsubmenu strong{ border-top:3px solid #cc3300; padding-top:10px;}
+.category-menu-nav-list li{ position:relative;}
+.m3{ background:url(../images/menu-open.gif) no-repeat; height:30px; line-height:30px; padding-bottom:5px; padding-left:35px; font-size:14px;}
+.icon-1{ background-position:0 0;}
+.icon-2{ background-position:0 -37px;}
+.icon-3{ background-position:0 -76px;}
+.icon-4{ background-position:0 -109px;}
+.icon-5{ background-position:0 -145px;}
+.icon-6{ background-position:0 -186px;}
+.icon-7{ background-position:0 -216px;}
+.icon-8{ background-position:0 -257px;}
+.icon-9{ background-position:0 -290px;}
+.icon-10{ background-position:0 -333px;}
+.icon-11{ background-position:0 -368px;}
+.leftsubmenu{ width:320px; padding:20px; background:#fff; border:1px solid #cc3300; position:absolute; left:178px; top:-35px; display:none;}
+.category-menu-nav-list li.active .leftsubmenu{ display:block;}
+.leftsubmenu strong{ display:block; font-size:14px; padding:10px 5px;}
+.leftsubmenu ul li{ float:left; line-height:20px; color:#999; }
+.leftsubmenu ul li a{ color:#000;padding:0 5px;}
+/********foot******/
+.foot{ background:#fcfcfc; border:1px solid #f1f1f1; border-left:none; border-right:none; margin-bottom:20px;}
+.linkbox{border-bottom:1px solid #f1f1f1; padding:60px 0;}
+.linkbox-l{ width:500px;}
+.linkbox-l dt{ width:175px; float:left;}
+.linkbox-l dd{ width:300px; float:left; padding-top:30px;}
+.linkbox-l dd h2,.linkbox-l dd h4{ margin:0; line-height:35px;}
+.linkbox-r{ width:550px;}
+.linkbox-r h4{ font-weight:bold; font-size:15px;}
+.linkbox-r ul{ padding:0 15px 0 5px; height:60px;}
+.linkbox-r ul li{ padding:0 5px 0 0; line-height:20px; font-size:12px;}
+.linkbox-r .col-md-4{ width:180px; float:left;}
+.foot-inner{height:130px; }
+.foot-l{ width:450px;}
+.foot-l li{ margin-right:5px;}
+.foot-r{ width:620px; margin-top:10px;}
+.foot-r ul li{ float:left;}
+.foot-r ul li a{ padding:0 5px;}
+.foot-r p{ margin:5px 0 0 5px;}
+/********ad******/
+.ad{ height:92px;}
+/*****侧边栏****/
+.btn-group-left{ border:1px solid #ccc; border-bottom:0px; position:absolute; display:none; left:0px; top:0px; z-index:1000;}
+.btn-group-left li{ width:36px; height:37px; display:block; text-align:center; cursor:pointer; position:relative;}
+.btn-grout-icon{ position:absolute; left:0px; top:0px; width:36px; height:37px; display:block; overflow:hidden; border-bottom:1px solid #ccc;}
+.grout-t,.grout-b{ width:36px; height:36px; display:block; line-height:16px;}
+.mao .grout-t{ background:#666; color:#ccc; height:36px;}
+.mao .grout-t,.grout-b{ padding-top:2px;}
+.mao{ height:36px; width:36px; overflow:hidden;}
+.grout-b{ background:#cc3300; color:#fff; display:none;}
+.btn-group-left li.active .grout-b,.btn-group-left li:hover .grout-b{ display:block;}
+.btn-group-left li.active .grout-t,.btn-group-left li:hover .grout-t{ display:none;}
+.btn-group-left .leftsubmenu{ position:absolute; left:36px; top:0; z-index:100;}
+.btn-group-left .leftsubmenu ul li{ width:auto; height:auto; text-align:left;}
+.btn-group-left .leftsubmenu  strong{ text-align:left;}
+
+/********banner******/
+.bannerbox{ position:relative; height:420px; overflow:hidden;}
+.banner{ position:absolute; width:1920px; height:420px; margin-left:-960px; left:50%; z-index:0;}

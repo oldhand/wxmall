@@ -1,0 +1,112 @@
+@charset "utf-8";
+/***************order首页*************/
+/*order-tit*/
+.order-tit{ margin-bottom:10px;}
+.order-tit h3{ width:200px;}
+.order-tit .order-tit-step{ margin-top:30px;}
+.order-tit .order-tit-step li{ float:left; font-weight:bold; padding:0 5px;}
+.order-tit .order-tit-step a{ float:left; padding:0 10px 0 0;}
+.order-tit .order-tit-step span{ background:url(../images/jt.gif) no-repeat; width:12px; height:21px; display:block; float:right; margin-left:20px;}
+
+/*.item*/
+.row-item-tit{ background:#f3f3f3; height:35px; line-height:35px;}
+.row-item-tit div{ height:35px;}
+.shop-name p{ line-height:25px;}
+.shop-body li{ padding:25px 0; border-bottom:1px dotted #c2c2c2;}
+.item-1{ width:44px; display:block; float:left; line-height:30px; text-align:center;}
+
+.shop-body li .item-1,.shop-body li .item-5{ line-height:80px;vertical-align:middle;}
+ul.numcontrl{ width:107px; margin:0 auto;}
+ul.numcontrl li{ float:left; width:25px; height:25px; display:block; float:left; border:1px solid #e8e8e8; padding:0; margin:0; margin-right:2px; text-align:center; font-size:14px;}
+ul.numcontrl li a:hover{ color:#666;}
+ul.numcontrl li.arial{ width:50px;}
+ul.numcontrl li.arial input{ width:40px; height:25px; line-height:25px; color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif; background:none; border:none; margin:0; padding:0; text-align:center;}
+.shop-body table td{ border-bottom:1px dotted #e8e8e8; padding:15px 0;}
+.item-7 { width:180px; float:left;}
+.shop-body .item-7 { line-height:80px;}
+.item-4 ul li a{ color:#999;}
+.item-6 .btn-sm{ width:75px; height:25px; font-size:12px; display:block; line-height:25px;margin:0 auto 5px; padding:0;}
+.item-6 a-del:hover{ color:#cc0000;}
+.shop-body{ position:relative; border-bottom:none;}
+.shoplist{ padding-bottom:20px;}
+.bot-line{ background:#e8e8e8; height:1px; width:1110px; position:absolute; bottom:0px; left:0px; z-index:2;}
+.order-button{ padding:5px 10px 5px 0; height:45px; line-height:35px; background:#f3f3f3;}
+.order-button .item-1{ margin-top:5px;}
+.btn-order-choice{ width:300px;}
+.btn-order-choice a{ padding:0 5px;}
+.btn-order-go{ width:450px; height:35px; line-height:35px; overflow:hidden;}
+.btn-order-go .btn-sm{ width:160px; line-height:35px; font-weight:bold;}
+.btn-order-go p{ margin-top:-6px;}
+.btn-order-go p span{ float:left;}
+.fixbottom{ position:fixed; width:1110px; bottom:0px; left:50%; margin-left:-555px; z-index:100;}
+/***********order 填写订单页*********/
+.fill-tit{ padding:0 15px;}
+.fill-tit .btn-gray{ width:90px; height:25px; margin:4px; padding:0; line-height:25px;}
+/*order-xxlist*/
+.pad{ padding:0 15px;}
+.order-xxlist{ margin-bottom:20px; padding:10px 0;}
+.radiolist ul li{ padding-bottom:5px; height:30px; line-height:25px; overflow:hidden;}
+.radiolist ul li span{ padding-right:10px;}
+.radiolist ul li a{ color:#cc0000; padding:0 5px;}
+.order-xxlist a.red:hover{ text-decoration:underline;}
+.order-xxlist .btn-sm{ font-weight:bold;}
+.bz{ padding:10px 15px; position:relative;}
+.bz .pos-right{ position:absolute; right:15px; top:15px;}
+.bz h6{ border:1px solid #e8e8e8; background:#f3f3f3; height:28px; width:105px; text-align:center; line-height:28px;}
+.bz-box{ width:480px; padding:15px;}
+.textarea{ width:450px; height:70px; padding:5px 10px; line-height:20px; overflow:hidden;}
+.bz .btn160{ height:45px; font-weight:bold;}
+.bz-form p{ padding-bottom:15px;}
+.select{ width:150px; height:35px;}
+#newdressview{ display:none;}
+.qrxx{ line-height:30px;}
+.bzlist{ margin-bottom:20px;}
+/*************pay 订单支付页面**********/
+.pay-top h4{ background:url(../images/order/circle.gif) no-repeat left center; height:35px; line-height:35px; margin:0;}
+.pay-top h4,.pay-top-inner{ padding-left:40px;}
+.pay-top-inner{ line-height:25px;}
+.pay-top-inner span{ padding-right:20px;}
+.btn-pay a{ font-weight:bold; line-height:45px;}
+.pay-bot-top{ border-bottom:1px solid #e8e8e8; padding:15px;}
+.pay-bot-bank{ padding:20px 35px;}
+.pay-bot-bank ul li{ width:130px; height:30px; border:1px solid #fff; float:left; margin:0 15px 10px 0; position:relative;} 
+.pay-bot-bank ul li a{ display:block; width:130px; height:32px; background:url(../images/order/blank.gif) no-repeat; border:1px solid #fff; text-indent:-9999px;}
+.pay-bot-bank ul li a:hover{ border:1px solid #aaa;}
+.pay-bot-bank ul li a.active{ border:1px solid #cc0000;}
+.pay-bot-bank ul li a.bank-js{ background-position:8px 4px;}
+.pay-bot-bank ul li a.bank-gs{ background-position:-133px 4px;}
+.pay-bot-bank ul li a.bank-zs{ background-position:-265px 3px;}
+.pay-bot-bank ul li a.bank-gf{ background-position:-400px 5px;}
+.pay-bot-bank ul li a.bank-gd{ background-position:-544px 4px;}
+.pay-bot-bank ul li a.bank-ms{ background-position:-680px 5px;}
+.pay-bot-bank ul li a.bank-zx{ background-position:-808px 5px;}
+.pay-bot-bank ul li a.bank-ny{ background-position:8px -44px;}
+.pay-bot-bank ul li a.bank-pf{ background-position:-132px -44px}
+.pay-bot-bank ul li a.bank-xy{ background-position:-262px -44px}
+.pay-bot-bank ul li a.bank-zg{ background-position:-680px 2px;}
+.pay-bot-bank ul li a.bank-zfb{ background-position:-542px -44px}
+.pay-bot-bank ul li a.bank-wy{ background-position:-682px -44px}
+.pay-bot-bank ul li a.bank-cft{ background-position:-800px -44px;}
+.pay-bot-bank ul li span{ background:url(../images/active.png) no-repeat; width:12px; height:12px; bottom:-3px; right:-2px;position:absolute; display:none;}
+.pay-bot-bank ul li.active span{ display:block;}
+/***********fill-first 第一次登录时**********/
+.fill-first-tit{ padding:20px; border-bottom:1px solid #e8e8e8;}
+.fill-first-tit p{ line-height:30px;}
+.fill-first-form{ padding:20px; line-height:35px;}
+.fill-first-form span.fill-tit{ width:130px; height:35px; display:block; float:left; line-height:30px; padding-top:5px; text-align:right;}
+.w400{ width:400px;}
+.fill-first-form ul li{ padding-bottom:20px;}
+.fill-first-form ul li span{ float:left; padding-left:3px;}
+.fill-first-form ul li .greey{ color:#ccc;}
+.w80{ width:80px;}
+.time-sh{ padding:15px 20px 20px;}
+.time-sh p{ line-height:25px;}
+.man-address-top{ padding:20px; border-bottom:1px solid #e8e8e8;}
+.man-address-top span{ padding-left:10px;}
+.man-address-bot{ padding:20px;}
+.man-address-top p{ line-height:25px;}
+.pay-bot-bank ul li a.bank-wx{
+	height: 44px;
+	background:url(../images/wxpay.jpg) no-repeat;
+	background-size: 100% 100%;
+ }

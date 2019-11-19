@@ -1,0 +1,41 @@
+ 
+.mui-slider-title
+{ 
+    background: transparent; 
+}
+ .mui-search.mui-active:before
+ {
+ 	  top: 70%;
+ }
+ .mui-search input[type='search']{
+	margin-bottom: 0px; 
+	padding: 5px 30px;
+ }
+
+.mui-slider-title { 
+  opacity: .5;
+    color: #fff;
+}  
+.price1 {text-decoration:line-through; color:#000;  }  
+.price3 {text-decoration:line-through; color:#999;  } 
+.price2 {padding-left:5px;color:#CF2D28; font-size:1.2em; font-weight:500; }
+.price1 span,.price2 span,span.price{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin-left:0}
+.price2 span {font-size:1.1em}
+
+.mui-table-view-cell:after {
+   background-color: #fff;
+} 
+ 
+img {
+  vertical-align: middle;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+} 
+ 
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {font-size: 13px;}
+ 
+.salesactivity {padding:0px;border-top: 1px solid #8d9297;border-left: 1px solid #8d9297;border-right: 1px solid #8d9297;}
+
