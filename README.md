@@ -56,15 +56,15 @@
 </tr>
 <tr>
  <td>http://f2c.tezan.cn/t1.php</td>
- <td>铜官印象 展示公众号</td>
+ <td>铜官印象 展示公众号(同时支持微信与PC端)</td>
 </tr>
 <tr>
  <td>http://f2c.tezan.cn/t2.php</td>
- <td>大印湘西 展示公众号</td>
+ <td>大印湘西 展示公众号(同时支持微信与PC端)</td>
 </tr>
 <tr>
  <td>http://f2c.tezan.cn/t3.php</td>
- <td>若米家 展示公众号</td>
+ <td>若米家 展示公众号(同时支持微信与PC端)</td>
 </tr>
 </table>
 
