@@ -22,10 +22,10 @@ class WxPayConfig
 	 * 获取地址：https://mp.weixin.qq.com/advanced/advanced?action=dev&t=advanced/dev&token=2005451881&lang=zh_CN
 	 * @var string
 	 */
-	public static $APPID = 'wx7962fafc7ec5b6c6';
-	public static $MCHID = '1252726901';
-	public static $KEY = '4c35458e913efbcf86ef621d22387b10';
-	public static $APPSECRET = '4c35458e913efbcf86ef621d22387b10';
+	public static $APPID = '';
+	public static $MCHID = '';
+	public static $KEY = '';
+	public static $APPSECRET = '';
 	
 	const MAIN_DOMAIN = 'mall.tezan.cn';
 	
