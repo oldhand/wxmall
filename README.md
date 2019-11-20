@@ -49,7 +49,7 @@
  
  
 ## DEMO
-<tableth>
+<table>
 <tr>
  <th>展示地址</td>
  <th>描述</td>
